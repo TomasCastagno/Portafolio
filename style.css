@@ -97,6 +97,7 @@ a:hover {
   grid-area: 1 / 2 / 6 / 3;
   max-width: 105%;
   max-height: 95%;
+  margin-left: 40px;
   margin-top: 20px;
 }
 
