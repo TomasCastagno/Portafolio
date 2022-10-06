@@ -217,16 +217,19 @@ a:hover {
 /* SECCIÓN EXPERIENCIAS Y HABILIDADES */
 
 .background-section {
-  height: 70vh;
+
   background-color: #FCDA68;
+  padding: 610px auto auto auto;
   margin-left: -8vw;
   margin-right: -8vw;
 }
 
 @media (max-width: 480px) {
-  .background-section { 
-  height: 160vh;
-}
+  .background-section {
+    padding: auto;
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
 }
 
 .section-exp-skills {
@@ -235,7 +238,9 @@ a:hover {
     grid-template-rows: repeat(4, min-content);
     grid-template-columns: (2, 1fr);
     row-gap: 0px;
-    margin: 70px 8vw 100px 8vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 20px 0px 20px 0px;
 }
 
 @media (max-width: 480px) {
@@ -244,8 +249,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    padding: 5px 0px 5px 0px;
-    margin: 70px 8vw 100px 8vw;
+    padding: 20px 0px 20px 0px;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
@@ -420,16 +426,30 @@ a:hover {
 }
 
 .cards img {
-  background-image: cover;
   margin-left: -15px;
+  width: 390px;
 }
 
 .cards:first-child img {
   margin-top: 13px;
   margin-right: 5px;
   margin-left: 5px;
-  background-image: cover;
+  height: 260px;
 }
+
+@media (max-width: 480px) {
+  .cards img {
+    margin: auto auto auto -10px;
+    width: 460px;
+    align-self: center;
+  }
+  
+  .cards:first-child img {
+    margin: 10px auto auto 10px;
+    width: 420px;
+  }
+}
+
 
 footer h1 {
   color: #423F40;
@@ -438,8 +458,7 @@ footer h1 {
 
 @media (max-width: 480px) {
   footer {
-    margin-left: -5vw;
-    margin-right: -5vw;
+    margin:auto;
   }
 
   footer h1 {
