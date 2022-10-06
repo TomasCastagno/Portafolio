@@ -440,13 +440,13 @@ a:hover {
 @media (max-width: 480px) {
   .cards img {
     margin: auto 0px auto -10px;
-    width: 450px;
+    width: 420px;
     align-self: center;
   }
   
   .cards:first-child img {
     margin: 10px 0px 20px 10px;
-    width: 410px;
+    width: 380px;
   }
 }
 
