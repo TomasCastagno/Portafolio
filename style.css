@@ -9,6 +9,7 @@ body {
   body {
     font-size: 16px;
     margin: 5vh 2vh 5vh 2vh;
+
   } 
 }
 
@@ -439,14 +440,14 @@ a:hover {
 
 @media (max-width: 480px) {
   .cards img {
-    margin: auto 0px auto -10px;
-    width: 420px;
+    margin: auto 0px auto -5px;
+    width: 400px;
     align-self: center;
   }
   
   .cards:first-child img {
-    margin: 10px 0px 20px 10px;
-    width: 380px;
+    margin: 10px 0px 20px 5px;
+    width: 360px;
   }
 }
 
