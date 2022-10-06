@@ -7,6 +7,7 @@
   <title>Portafolio Walter Tomás Castagno</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./normalize.css">
 <link rel="stylesheet" href="./style.css">
@@ -15,95 +16,91 @@
 <!-- SECCION MENU -->
     <header>
       <nav>
-        <ul class = "menu margin">
-          <li>
+      <div class="desktop-menu">
             <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#experiencias-y-habilidades">Experiencias y habilidades</a>
-          </li>
-          <li>
+            <a href="#experiencia-y-habilidades">Experiencia y habilidades</a>
             <a href="#portafolio">Portafolio</a>
-          </li>
-          <li>
             <a href="#contacto">Contacto</a>
-          </li>
-        </ul>
+      </div>
+      <div class="mobile-menu">
+        <span class="material-symbols-outlined">menu
+        </span>
+      </div>
       </nav>
     </header>
     <!-- SECCION HOME -->
   <section id="home">
-    <div class="grid-home margin">
-      <h1>Design <br> Experience</h1>
+    <div class="section-home">
+      <h1>Design experience</h1>
       <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      <h3><span id="color">+ 5 años</span> de experiencia</h3>
-      <div class="iconsnetwork">
+      <p><span id="color">+ 5 años</span> de experiencia</p>
+      <div class="icons-network">
         <img src="./Íconos/linkedin.svg" alt="ind">
         <img src="./Íconos/instagram.svg" alt="ig">
         <img src="./Íconos/twitter.svg" alt="twt">
       </div>
+      <img class="personal-image" src="./Imágenes/photo desktop.png" alt="foto personal">
       <div class="bottom-mail">
         <img src="./Íconos/mail 1.svg" alt="mail">
         Contáctame
       </div>
-      <img src="./Imágenes/photo desktop.png" alt="foto personal">
+
   </section>
 
 
 <!-- EXPERIENCIAS Y HABILIDADES -->
-  <section id="experiencias-y-habilidades" class="section-orange">
-    <div class="container-orange margin">
+<div class="background-section">
+  <section id="experiencia-y-habilidades"class="section-exp-skills">
       <h1>Experiencias y <br> habilidades</h1> 
       <p> Lorem ipsum dolor sit amet. <br> Eum earum et galisum voluptatibus.</p>
-      <h3>Habilidades</h3>
-        <div class="icons-habilidades">
-          <div class="mobile">
-            <img src="./Íconos/mobile.svg" alt="mobile">
-            <p class="align"><strong>Mobile app design</strong></p>
-          </div>
-          <div class="motion">
-            <img src="./Íconos/motion.svg" alt="motion">
-            <p class="align"><strong>Motion design</strong></p>
-          </div>
-          <div class="design">
-            <img src="./Íconos/material.svg" alt="design">
-            <p class="align"><strong>Creación y <br> mantenimiento de <br> sistemas de diseño</strong></p>
-          </div>
-          <div class="proyects">
-            <img src="./Íconos/design.svg" alt="proyect">
-            <p class="align"><strong>Gestión de <br>proyectos</strong></p>
-          </div>
-        </div>
-    
       <div class="sectionexperience">
-          <p><strong>Experiencia</strong></p>
-          <p class="year1 years">2016-2018</p>
-          <div class="line1"></div>
-          <p class="year2 years">2018-2019</p>
-          <div class="line2"></div>
-          <p class="year3 years">2019-2021</p>
-          <p class="exp1"> <strong>Visual designer</strong><br>
+        <h3>Experiencia</strong></h3>
+        <p class="year1 years">2016-2018</p>
+        <div class="line1"></div>
+        <p class="year2 years">2018-2019</p>
+        <div class="line2"></div>
+        <p class="year3 years">2019-2021</p>
+        <p class="exp1"> <strong>Visual designer</strong><br>
             <span class="years">Wiseline</span>
-          </p>
-          <p class="exp2"><strong>Producto designer</strong><br>
-            <span class="years">Microsoft</span>
-          </p>
-          <p class="exp3"><strong>UI Engineer</strong><br>
-            <span class="years">Google</span>
-          </p>
-      </div>        
-    </div>
+        </p>
+        <p class="exp2"><strong>Producto designer</strong><br>
+          <span class="years">Microsoft</span>
+        </p>
+        <p class="exp3"><strong>UI Engineer</strong><br>
+          <span class="years">Google</span>
+        </p>
+      </div>   
+      <h3>Habilidades</h3>
+      <div class="icons-skills align">
+        <div>
+          <img src="./Íconos/mobile.svg" alt="mobile">
+          <p><strong>Mobile app design</strong></p>
+        </div>
+        <div>
+          <img src="./Íconos/motion.svg" alt="motion">
+          <p><strong>Motion design</strong></p>
+        </div>
+        <div>
+          <img src="./Íconos/material.svg" alt="design">
+          <p><strong>Creación y <br> mantenimiento de <br> sistemas de diseño</strong></p>
+        </div>
+        <div>
+          <img src="./Íconos/design.svg" alt="proyect">
+          <p><strong>Gestión de <br>proyectos</strong></p>
+        </div>
+      </div>
 </section>
+</div>
 <!-- SECCIÓN PORTAFOLIO -->
-<section id="portafolio" class="margin">
+<section id="portafolio">
   <h1>Portafolio</h1>
-  <div class="cards-container">
+  <div class="cards-portfolio">
     <div class="cards">
       <p>Beuty app</p>
       <img src="./Imágenes/ejemplo 3.png" alt="card3">
     </div>
     <div class="cards">
-      <p>Training</p>
+      <p>Training app</p>
       <img src="./Imágenes/ejemplo 1.png" alt="card1">
     </div>
     <div class="cards">
@@ -113,24 +110,21 @@
   </div>
 </section>
 <!-- SECCIÓN CONTACTO y FOOTER-->
-<footer id="contacto" class="margin">
-  <h1 class="contacto">Contacto</h1>
+<footer id="contacto">
+  <h1>Contacto</h1>
   <div class="datos-contacto">
-    <div>
-      <img src="./Íconos/phone.svg" alt="phone">
-      <p class="aligncontacto"><strong>Número Celular</strong></p>
-      <p class="aligncontacto">5526895424</p>
+    <div class="aligncontacto">
+      <img c src="./Íconos/phone.svg" alt="phone">
+      <p><strong>Número Celular</strong></p>
+      <p>5526895424</p>
     </div>
-    <div>
+    <div class="aligncontacto">
       <img src="./Íconos/mail.svg" alt="mail">
-      <p class="aligncontacto"><strong>Email</strong></p>
-      <p class="aligncontacto">example@correo.com</p>
+      <p><strong>Email</strong></p>
+      <p>example@correo.com</p>
     </div>
   </div>
-
-  <p class="footer">Hecho con &hearts; en Academlo</p>
+  <p class="academlo">Hecho con &hearts; en Academlo</p>
 </footer>
-
-
 </body>
 </html>
