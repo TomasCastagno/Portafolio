@@ -8,7 +8,7 @@ body {
 @media (max-width: 480px) {
   body {
     font-size: 16px;
-    margin: 5vh;
+    margin: 5vh 2vh 5vh 2vh;
   } 
 }
 
@@ -245,7 +245,7 @@ a:hover {
     justify-content: center;
     align-content: center;
     padding: 5px 0px 5px 0px;
-    margin: 70px 5vw 100px 5vw;
+    margin: 70px 8vw 100px 8vw;
   }
 }
 
@@ -387,10 +387,6 @@ a:hover {
 
 
 @media (max-width: 480px) {
-  #portafolio {
-    margin-left: -5vw;
-    margin-right: -5vw;
-  }
 
   #portafolio h1 {
     font-weight: 600;
@@ -459,16 +455,17 @@ footer h1 {
   justify-content: center;
   flex-direction: row;
   margin-bottom: 80px;
-  margin-left: 20vw ;
-  max-width: 45vw;
+  margin-left: 20vw;
+  max-width: 40vw;
 
 }
 
 @media (max-width: 480px) {
   .datos-contacto {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     flex-direction: row;
+    margin: auto;
     gap: 10px;
   }
 }
@@ -522,4 +519,5 @@ footer h1 {
   text-align: center;
   color:#8e7bef;
   font-size: 18px;
+  margin-top: 70px;
 }
