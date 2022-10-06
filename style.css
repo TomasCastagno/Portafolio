@@ -445,7 +445,7 @@ a:hover {
   }
   
   .cards:first-child img {
-    margin: 10px auto auto 10px;
+    margin: 10px auto 20px 10px;
     width: 420px;
   }
 }
