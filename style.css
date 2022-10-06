@@ -441,13 +441,13 @@ a:hover {
 @media (max-width: 480px) {
   .cards img {
     margin: auto 0px auto -5px;
-    width: 400px;
+    width: 390px;
     align-self: center;
   }
   
   .cards:first-child img {
-    margin: 10px 0px 20px 5px;
-    width: 360px;
+    margin: 10px 0px 20px 10px;
+    width: 350px;
   }
 }
 
