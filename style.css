@@ -10,7 +10,7 @@ body {
     font-size: 16px;
     margin: 5vh 2vh 5vh 2vh;
 
-  } 
+  }
 }
 
 /* SECCIÓN MENU */
@@ -47,7 +47,7 @@ body {
 }
 
 a:any-link {
-  color:#222222
+  color: #222222
 }
 
 a:active {
@@ -84,7 +84,7 @@ a:hover {
   font-weight: 600;
   margin-bottom: 10px;
   margin-top: 0px;
-} 
+}
 
 @media (max-width: 480px) {
 
@@ -95,7 +95,7 @@ a:hover {
   }
 }
 
- .section-home h2 {
+.section-home h2 {
   grid-area: 2 / 1 / 3 / 2;
   margin-top: 0px;
   font-weight: 600;
@@ -122,16 +122,16 @@ a:hover {
 }
 
 #color {
-  color:#8e7bef
+  color: #8e7bef
 }
 
 @media (max-width: 480px) {
   .section-home p {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin: auto;
-  color: #9e9d9d;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    color: #9e9d9d;
   }
 }
 
@@ -143,7 +143,7 @@ a:hover {
   border-radius: 100%;
   padding: 10px;
   margin: 10px;
-  
+
 }
 
 @media (max-width: 480px) {
@@ -156,11 +156,11 @@ a:hover {
   }
 
   .icons-network img {
-  background-color: #8e7bef;
-  max-width: 24px;
-  max-height: 24px;
-  border-radius: 100%;
-  padding: 5px;
+    background-color: #8e7bef;
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 100%;
+    padding: 5px;
   }
 }
 
@@ -168,7 +168,7 @@ a:hover {
   background-size: cover;
   grid-area: 1 / 2 / 6 / 3;
   margin-left: 70px;
-} 
+}
 
 @media (max-width: 480px) {
 
@@ -181,7 +181,7 @@ a:hover {
 
 }
 
- .bottom-mail {
+.bottom-mail {
   grid-area: 5 / 1 / 6 / 2;
   display: flex;
   justify-content: center;
@@ -213,7 +213,7 @@ a:hover {
     text-align: center;
     margin: auto;
   }
-  }
+}
 
 /* SECCIÓN EXPERIENCIAS Y HABILIDADES */
 
@@ -234,14 +234,14 @@ a:hover {
 }
 
 .section-exp-skills {
-    
-    display: grid;
-    grid-template-rows: repeat(4, min-content);
-    grid-template-columns: (2, 1fr);
-    row-gap: 0px;
-    margin-left: 8vw;
-    margin-right: 8vw;
-    padding: 20px 0px 20px 0px;
+
+  display: grid;
+  grid-template-rows: repeat(4, min-content);
+  grid-template-columns: (2, 1fr);
+  row-gap: 0px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  padding: 20px 0px 20px 0px;
 }
 
 @media (max-width: 480px) {
@@ -269,12 +269,12 @@ a:hover {
   }
 }
 
-.section-exp-skills > p {
+.section-exp-skills>p {
   color: #423f40;
 }
 
 @media (max-width: 480px) {
-  .section-exp-skills > p {
+  .section-exp-skills>p {
     color: #423f40;
     text-align: start;
     margin-top: 0;
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .line2 {
-  grid-row: 4 / 4 ;
+  grid-row: 4 / 4;
   grid-column: 1 / 3;
   background-color: #423F40;
   height: 1px;
@@ -385,7 +385,7 @@ a:hover {
   grid-row: 4 / 5;
   grid-column: 2 / 3;
   margin-left: 0;
-    margin: auto;
+  margin: auto;
   margin-left: 10px;
   font-size: 16px;
 }
@@ -403,7 +403,7 @@ a:hover {
 }
 
 .cards p {
-  color:#8e7bef;
+  color: #8e7bef;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 2px;
@@ -419,11 +419,11 @@ a:hover {
 
 @media (max-width:480px) {
   .cards-portfolio {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 }
 
 .cards img {
@@ -444,7 +444,7 @@ a:hover {
     width: 390px;
     align-self: center;
   }
-  
+
   .cards:first-child img {
     margin: 10px 0px 20px 10px;
     width: 350px;
@@ -459,14 +459,14 @@ footer h1 {
 
 @media (max-width: 480px) {
   footer {
-    margin:auto;
+    margin: auto;
   }
 
   footer h1 {
-  color: #423F40;
-  margin-bottom: 10vh;
-  text-align: center;
-  font-size: 28px;
+    color: #423F40;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 28px;
   }
 }
 
@@ -515,29 +515,29 @@ footer h1 {
   justify-items: center;
   align-items: center;
   text-align: center;
-  color:#9e9d9d;
+  color: #9e9d9d;
   font-size: 14px;
   margin: auto;
-  }
+}
 
-  .align-contacto p strong {
-    color:#222222;
-  }
+.align-contacto p strong {
+  color: #222222;
+}
 
-  .align-contacto p {
-    margin-bottom: 30px;
-  }
+.align-contacto p {
+  margin-bottom: 30px;
+}
 
 @media (max-width: 480px) {
 
-    .align-contacto p {
-      margin-bottom: -5px;
-    }
+  .align-contacto p {
+    margin-bottom: -5px;
   }
+}
 
 .academlo-foot {
   text-align: center;
-  color:#8e7bef;
+  color: #8e7bef;
   font-size: 18px;
   margin-top: 70px;
 }
