@@ -271,6 +271,7 @@ a:hover {
 
 .section-exp-skills>p {
   color: #423f40;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 480px) {
